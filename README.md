@@ -1,5 +1,6 @@
 # 💫 About Me:
- Hi there! I'm Kristian<br>🔭 Currently studying for Full Stack .NET Developer at <a href = "https://softuni.bg/">SoftUni<a>, a Software University.<br>👯 I’m looking to collaborate on<br>🤝🌱 I’m currently learning c#<br>
+ Hi there! I'm Kristian<br>🔭 Currently studying for Full Stack .NET Developer at <a href = "https://softuni.bg/">SoftUni<a>, a Software University.<br>👯 I’m looking to collaborate on<br>🤝🌱 I’m currently learning <img src ="![image](https://user-images.githubusercontent.com/99142736/180663197-fc0391f7-d4cd-4257-bb1c-cd53bd2bcc97.png)
+"<br>
 
 
 ## 🌐 Connect with Me:
