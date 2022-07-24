@@ -1,5 +1,6 @@
 # 💫 About Me:
- Hi there! I'm Kristian<br>🔭 Currently studying for Full Stack .NET Developer at <a href = "https://softuni.bg/">SoftUni<a>, a Software University.<br>👯 I'm looking for an internship <br>🤝🌱 I’m currently learning c#
+ Hi there! I'm Kristian<br>🔭
+I graduated from the mathematics high school <a href = "mg-babatonka.bg">Baba Tonka <a> in Ruse, Bulgaria<br>Currently studying for Full Stack .NET Developer at <a href = "https://softuni.bg/">SoftUni<a>, a Software University.<br>👯 I'm looking for an internship <br>🤝🌱 I’m currently learning c#
 
 
 ## 🌐 Connect with Me:
