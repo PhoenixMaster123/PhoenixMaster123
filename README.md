@@ -1,5 +1,5 @@
 # 💫 About Me:
- Hi there! I'm Kristian<br>🔭 Currently studying for Full Stack .NET Developer at <a href = "https://softuni.bg/">SoftUni<a>, a Software University.<br>👯 I’m looking to collaborate on<br>🤝🌱 I’m currently learning ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?
+ Hi there! I'm Kristian<br>🔭 Currently studying for Full Stack .NET Developer at <a href = "https://softuni.bg/">SoftUni<a>, a Software University.<br>👯 I’m looking to collaborate on<br>🤝🌱 I’m currently learning c#
 
 
 ## 🌐 Connect with Me:
