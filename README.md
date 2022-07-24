@@ -1,5 +1,5 @@
 # 💫 About Me:
- Hi there! I'm Kristian<br>🔭 I’m currently working on<br>👯 I’m looking to collaborate on<br>🤝 I’m looking for help with<br>🌱 I’m currently learning<br>💬 Ask me about<br>⚡ Fun fact
+ Hi there! I'm Kristian<br>🔭 Currently studying for Full Stack .NET Developer at SoftUni, a Software University.<br>👯 I’m looking to collaborate on<br>🤝🌱 I’m currently learning c#<br>
 
 
 ## 🌐 Connect with Me:
@@ -7,12 +7,12 @@
 
 # 💻 Tech Stack:
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-# 📊 GitHub Stats:
+# 📊 Stats:
 ![](https://github-readme-stats.vercel.app/api?username=PhoenixMaster123&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=PhoenixMaster123&theme=tokyonight&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=PhoenixMaster123&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-## 🏆 GitHub Trophies
+## 🏆Trophies
 ![](https://github-profile-trophy.vercel.app/?username=PhoenixMaster123&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 ---
