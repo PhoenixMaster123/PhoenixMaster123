@@ -1,6 +1,6 @@
 # :octocat: About Me:
  Hi there! I'm Kristian<br>
-I graduated from the mathematics high school <a href = "http://www.mg-babatonka.bg/">Baba Tonka<a> in Ruse, Bulgaria :mortar_board: <br>Currently studying for Full Stack .NET Developer at <a href = "https://softuni.bg/">SoftUni<a>, a Software University. :computer: <br> I'm looking for an internship 🤝<br> I’m currently learning c#
+I graduated from the mathematics high school <a href = "http://www.mg-babatonka.bg/">Baba Tonka<a> in Ruse, Bulgaria :mortar_board: <br>Currently studying for Full Stack .NET Developer at <a href = "https://softuni.bg/">SoftUni<a>, a Software University. :computer: <br> I'm looking for an internship 🤝<br> I’m currently learning C#
 
 
 ## 🌐 Connect with Me:
