@@ -19,7 +19,7 @@ I graduated from the mathematics high school <a href = "http://www.mg-babatonka.
  
  <div class='cert'>
 <a href='[https://www.hackerrank.com/certificates/cfa2ab8f318f](https://softuni.bg/users/profile/certificates?username=PhoenixMaster123)'>
-    <img src="[Programming Basics - September 2021 - Certificate.pdf](https://github.com/PhoenixMaster123/PhoenixMaster123/files/10907234/Programming.Basics.-.September.2021.-.Certificate.pdf)
+    <img src="![image](https://user-images.githubusercontent.com/99142736/223367229-7fa4e432-6e55-4fe1-8b40-086c5818451a.png))
 " alt="1" style="width: 260px;">
 </a>
     <a href='https://www.hackerrank.com/certificates/f3a02f1473a8'>
