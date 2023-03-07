@@ -16,16 +16,6 @@ I graduated from the mathematics high school <a href = "http://www.mg-babatonka.
 ![](https://github-readme-stats.vercel.app/api?username=PhoenixMaster123&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=PhoenixMaster123&theme=tokyonight&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=PhoenixMaster123&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
- 
- <div class='cert'>
-<a href='[https://www.hackerrank.com/certificates/cfa2ab8f318f](https://softuni.bg/users/profile/certificates?username=PhoenixMaster123)'>
-    <img src="![image](https://user-images.githubusercontent.com/99142736/223367229-7fa4e432-6e55-4fe1-8b40-086c5818451a.png))
-" alt="1" style="width: 260px;">
-</a>
-    <a href='https://www.hackerrank.com/certificates/f3a02f1473a8'>
-    <img src="img/c2.png" alt="2" style="width: 260px; ">
-</a>
-</div>
 
 ## 🏆Trophies:
 ![](https://github-profile-trophy.vercel.app/?username=PhoenixMaster123&theme=radical&no-frame=false&no-bg=true&margin-w=4)
