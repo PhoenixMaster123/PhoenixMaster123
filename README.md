@@ -1,6 +1,6 @@
 # :octocat: About Me:
  Hi there! I'm Kristian<br>
-I graduated from the mathematics high school <a href = "http://www.mg-babatonka.bg/">Baba Tonka<a> in Ruse, Bulgaria :mortar_board: <br> I am currently studying at a technical university Würzburg-Schweinfurt <br> I'm looking for an internship 🤝<br> I’m currently learning C#, Java, Racket, Css, HTML & SQL
+I graduated from the mathematics high school <a href = "http://www.mg-babatonka.bg/">Baba Tonka<a> in Ruse, Bulgaria :mortar_board: <br> I am currently studying at a technical university Würzburg-Schweinfurt <br> I'm looking for an internship 🤝<br> I’m currently learning Java, C#, C, Assembly, Shell Script, Racket, CSS, HTML & SQL
 
 
 ## 🌐 Connect with Me:
