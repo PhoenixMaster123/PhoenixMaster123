@@ -1,10 +1,12 @@
-name: Generate Snake Animation
+# REPLACE the contents of .github/workflows/snake.yml with this.
+# Do NOT add a second workflow that also pushes to the "output" branch --
+# they would overwrite each other's files. One workflow, one push.
+
+name: Generate Contribution Games
 
 on:
   schedule:
-    # Runs every day at 00:00 UTC
     - cron: "0 0 * * *"
-  # Lets you trigger it manually from the Actions tab
   workflow_dispatch:
   push:
     branches:
@@ -13,11 +15,13 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     permissions:
       contents: write
 
     steps:
-      - name: Generate snake animation
+      # ---------------- 1. Snake ----------------
+      - name: Generate snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -25,7 +29,31 @@ jobs:
             dist/snake.svg?palette=github-light&color_snake=#00e5ff
             dist/snake-dark.svg?palette=github-dark&color_snake=#00e5ff
 
-      - name: Push generated SVGs to the "output" branch
+      # Stash it: the arcade action rebuilds dist/ and would wipe the snake
+      - name: Stash snake output
+        run: |
+          mkdir -p staging
+          cp dist/*.svg staging/
+          rm -rf dist
+
+      # ---------------- 2. Arcade games ----------------
+      # games: pacman, breakout, galaga, puzzle-bobble, bomberman, minesweeper
+      - name: Generate arcade games
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: "pacman,breakout,galaga"
+          hide_month_labels: "false"
+
+      # ---------------- 3. Merge + push once ----------------
+      - name: Merge snake back in
+        run: |
+          mkdir -p dist
+          cp staging/*.svg dist/
+          echo "Files to publish:"
+          ls -la dist/
+
+      - name: Push all SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
