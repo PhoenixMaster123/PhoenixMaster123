@@ -10,7 +10,7 @@
 <!-- ============================ TYPING ANIMATION ============================ -->
 <div align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=900&color=00E5FF&center=true&vCenter=true&width=650&height=60&lines=CS+Student+%40+THWS;Backend+Developer;Java+%7C+Spring+Boot+%7C+SQL;Systems+%26+Low-Level+Programming"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=900&color=00E5FF&center=true&vCenter=true&width=650&height=60&lines=CS+Student+%40+THWS;Backend+Developer;Java+%7C+Spring+Boot+%7C+Microservices;Systems+%26+Low-Level+Programming"
     alt="Typing SVG"
   />
 </div>
@@ -28,35 +28,77 @@ Hi there! I'm **Kristian** 🎓
 - 🏫 I graduated from [Baba Tonka Mathematics High School](http://www.mg-babatonka.bg/) in Ruse, Bulgaria.
 - 📚 Currently studying at [Technical University of Würzburg-Schweinfurt (THWS)](https://www.thws.de/).
 - 🔍 Looking for an **internship** 🤝.
+- 💼 I work day to day in **Java, Spring Boot & microservices** — REST APIs, Hibernate/JPA, MySQL, Docker.
 - 🚀 Passionate about **backend development**, **system programming**, and **low-level programming**.
-- 🌱 Currently learning **Java, Spring Boot, JavaScript, C#, C, Assembly, Bash Script, Racket, CSS, HTML & SQL**.
+- 🌱 Currently exploring **C, Assembly, Racket** and 3D graphics with **Three.js**.
+- 🌍 Bulgarian 🇧🇬, studying in Germany 🇩🇪 — I speak Bulgarian, English and German.
 
 <br/>
 
+<!-- ============================ PROJECTS ============================ -->
+<!-- TODO: paste the repo URL into each [] below, delete any project that
+     isn't public yet. This is the section recruiters actually read. -->
+# 🛠️ What I'm Building:
+
+### ☕ Java / Spring Boot
+
+| Project | What it is | Stack |
+| :--- | :--- | :--- |
+| **[Car Service](https://github.com/PhoenixMaster123/car-service)** | Service-management platform for a real auto business — Thymeleaf UI plus REST API, talking to separate booking and payment microservices, with OAuth2 login. | `Java 17` `Spring Boot 3.4` `Spring Cloud` `MySQL` |
+| **[Library Management System](https://github.com/PhoenixMaster123/library-management-system)** | Catalogue, lending and returns backend built on **Hexagonal Architecture**, with HATEOAS links, HTTP caching and a JUnit suite. | `Java 21` `Spring Boot` `Spring Security` `JPA` |
+| **[Patient Management System](https://github.com/PhoenixMaster123/Patient-Management-System)** | Patient Management System built using Microservices Architecture with Spring Boot and AWS | `Java` `Spring Boot` `AWS`|
+
+### 🎨 Other Work
+
+| Project | What it is | Stack |
+| :--- | :--- | :--- |
+| **[Автокомплекс Харис](https://github.com/PhoenixMaster123/haris-auto)** | The customer-facing site for the same auto business — four-language i18n, before/after slider, Sofia Sans typography. | `React` `TypeScript` `Vite` |
+| **[E-Commerce-Webshop](https://github.com/PhoenixMaster123/E-Commerce-Webshop)** | <!-- paste repo URL above --> E-Commerce-Webshop | `TypeScript` `Vite` |
+
+<br/>
+
+<!-- ============================ CONNECT ============================ -->
 ## 🌐 Connect with Me:
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kristian-popov-3999a121b/)
+[![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/KristianPopov19)
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/_.kristian.32)
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100010223133661)
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kristian-popov-3999a121b/) 
-[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/PhoenixMaster#2707) 
-[![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://twitter.com/@KristianPopov19) 
 [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?style=for-the-badge&logo=Pinterest&logoColor=white)](https://www.pinterest.com/PhoenixMaster123)
 
 <br/>
 
 <!-- ============================ TECH STACK ============================ -->
 # 💻 Tech Stack:
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) 
-![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+
+**Backend**
+
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/spring%20boot-%236DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/spring%20security-%236DB33F.svg?style=for-the-badge&logo=springsecurity&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white)
+![Maven](https://img.shields.io/badge/apache%20maven-%23C71A36.svg?style=for-the-badge&logo=apachemaven&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) 
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) 
+![JUnit](https://img.shields.io/badge/JUnit5-%2325A162.svg?style=for-the-badge&logo=junit5&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+
+**Systems & Low-Level**
+
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
+![AssemblyScript](https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white)
+![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+
+**Frontend**
+
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![AssemblyScript](https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white) 
+
+**Tooling**
+
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
@@ -65,15 +107,22 @@ Hi there! I'm **Kristian** 🎓
 <br/>
 
 <!-- ============================ STATS ============================ -->
+<!-- The old cards here (github-readme-stats / streak / trophy) are removed on
+     purpose: those public services are rate-limited or returning 402, so they
+     rendered as broken images. Once metrics.yml has run once and the metrics/
+     folder exists on main, delete the two comment markers below. -->
+<!--
 # 📊 Stats:
-![](https://github-readme-stats.vercel.app/api?username=PhoenixMaster123&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=PhoenixMaster123&theme=tokyonight&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=PhoenixMaster123&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![Overview](./metrics/overview.svg)
 
----
+![Languages](./metrics/languages.svg)
 
-<!-- ============================ SNAKE ============================ -->
-## 🐍 Watch the snake eat my contributions:
+## 🏆 Achievements:
+![Achievements](./metrics/achievements.svg)
+-->
+
+<!-- ============================ ARCADE ============================ -->
+## 🕹️ Arcade Mode:
 
 <div align="center">
 
@@ -85,14 +134,10 @@ Hi there! I'm **Kristian** 🎓
 
 </div>
 
-<br/>
+<details>
+<summary><b>👾 Insert coin — 3 more games</b></summary>
 
 <br/>
-
-<!-- ============================ ARCADE ============================ -->
-## 🕹️ Arcade Mode:
-
-**👻 Pac-Man** — eats my commits while four ghosts give chase.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PhoenixMaster123/PhoenixMaster123/output/pacman-contribution-graph-dark.svg" />
@@ -100,15 +145,11 @@ Hi there! I'm **Kristian** 🎓
   <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/PhoenixMaster123/PhoenixMaster123/output/pacman-contribution-graph.svg" />
 </picture>
 
-**🧱 Breakout** — the ball smashes my contribution bricks.
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PhoenixMaster123/PhoenixMaster123/output/breakout-contribution-graph-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PhoenixMaster123/PhoenixMaster123/output/breakout-contribution-graph.svg" />
   <img alt="Breakout contribution graph" src="https://raw.githubusercontent.com/PhoenixMaster123/PhoenixMaster123/output/breakout-contribution-graph.svg" />
 </picture>
-
-**🚀 Galaga** — a fighter strafes the grid and shoots down my commits.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PhoenixMaster123/PhoenixMaster123/output/galaga-contribution-graph-dark.svg" />
@@ -116,20 +157,14 @@ Hi there! I'm **Kristian** 🎓
   <img alt="Galaga contribution graph" src="https://raw.githubusercontent.com/PhoenixMaster123/PhoenixMaster123/output/galaga-contribution-graph.svg" />
 </picture>
 
+</details>
+
 <br/>
 
 <!-- ============================ 3D CALENDAR ============================ -->
-<!-- THIS is the bit that makes the 3D calendar appear. The workflow only
-     generates the file; without this line nothing is ever displayed.
-     Other variants: profile-season-animate.svg, profile-green-animate.svg,
-     profile-night-view.svg, profile-gitblock.svg -->
-## 🧊 My Year in 3D:
+## 🧊 My Year Contribution:
 
 ![3D contribution calendar](./profile-3d-contrib/profile-night-rainbow.svg)
-
-<!-- ============================ TROPHIES ============================ -->
-## 🏆Trophies:
-![](https://github-profile-trophy.vercel.app/?username=PhoenixMaster123&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 <!-- ============================ ANIMATED FOOTER ============================ -->
 <div align="center">
