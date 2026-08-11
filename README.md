@@ -37,7 +37,7 @@ Hi there! I'm **Kristian** 🎓
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/_.kristian.32)
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100010223133661)
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kristian-popov-3999a121b/) 
-[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](htttps://discord.gg/PhoenixMaster#2707) 
+[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/PhoenixMaster#2707) 
 [![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://twitter.com/@KristianPopov19) 
 [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?style=for-the-badge&logo=Pinterest&logoColor=white)](https://www.pinterest.com/PhoenixMaster123)
 
@@ -67,21 +67,10 @@ Hi there! I'm **Kristian** 🎓
 <!-- ============================ STATS ============================ -->
 # 📊 Stats:
 ![](https://github-readme-stats.vercel.app/api?username=PhoenixMaster123&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=PhoenixMaster123&theme=tokyonight&hide_border=false)<br/>
+![](https://streak-stats.demolab.com/?user=PhoenixMaster123&theme=tokyonight&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=PhoenixMaster123&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-<!-- ---------- Animated contribution activity graph ---------- -->
-<div align="center">
-
-<img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=PhoenixMaster123&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity"
-  width="100%"
-  alt="Activity graph"
-/>
-
-</div>
-
-<br/>
+---
 
 <!-- ============================ SNAKE ============================ -->
 ## 🐍 Watch the snake eat my contributions:
@@ -89,14 +78,54 @@ Hi there! I'm **Kristian** 🎓
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PhoenixMaster123/PhoenixMaster123/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PhoenixMaster123/PhoenixMaster123/output/snake.svg" />
-  <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/PhoenixMaster123/PhoenixMaster123/output/snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PhoenixMaster123/PhoenixMaster123/output/snake-dark.svg?v=1" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PhoenixMaster123/PhoenixMaster123/output/snake.svg?v=1" />
+  <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/PhoenixMaster123/PhoenixMaster123/output/snake.svg?v=1" />
 </picture>
 
 </div>
 
 <br/>
+
+<br/>
+
+<!-- ============================ ARCADE ============================ -->
+## 🕹️ Arcade Mode:
+
+**👻 Pac-Man** — eats my commits while four ghosts give chase.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PhoenixMaster123/PhoenixMaster123/output/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PhoenixMaster123/PhoenixMaster123/output/pacman-contribution-graph.svg" />
+  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/PhoenixMaster123/PhoenixMaster123/output/pacman-contribution-graph.svg" />
+</picture>
+
+**🧱 Breakout** — the ball smashes my contribution bricks.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PhoenixMaster123/PhoenixMaster123/output/breakout-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PhoenixMaster123/PhoenixMaster123/output/breakout-contribution-graph.svg" />
+  <img alt="Breakout contribution graph" src="https://raw.githubusercontent.com/PhoenixMaster123/PhoenixMaster123/output/breakout-contribution-graph.svg" />
+</picture>
+
+**🚀 Galaga** — a fighter strafes the grid and shoots down my commits.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PhoenixMaster123/PhoenixMaster123/output/galaga-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PhoenixMaster123/PhoenixMaster123/output/galaga-contribution-graph.svg" />
+  <img alt="Galaga contribution graph" src="https://raw.githubusercontent.com/PhoenixMaster123/PhoenixMaster123/output/galaga-contribution-graph.svg" />
+</picture>
+
+<br/>
+
+<!-- ============================ 3D CALENDAR ============================ -->
+<!-- THIS is the bit that makes the 3D calendar appear. The workflow only
+     generates the file; without this line nothing is ever displayed.
+     Other variants: profile-season-animate.svg, profile-green-animate.svg,
+     profile-night-view.svg, profile-gitblock.svg -->
+## 🧊 My Year in 3D:
+
+![3D contribution calendar](./profile-3d-contrib/profile-night-rainbow.svg)
 
 <!-- ============================ TROPHIES ============================ -->
 ## 🏆Trophies:
