@@ -1,13 +1,12 @@
-# NEW file: save as .github/workflows/profile-3d.yml
-# This one commits into the main branch (folder: profile-3d-contrib/),
-# so it does NOT collide with the output branch used by the games.
-
 name: GitHub Profile 3D Contributions
 
 on:
   schedule:
     - cron: "0 18 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
@@ -23,6 +22,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+
+      - name: Show what was generated
+        run: ls -la profile-3d-contrib/
 
       - name: Commit & Push
         run: |
