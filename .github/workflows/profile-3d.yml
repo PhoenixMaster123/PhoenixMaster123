@@ -1,8 +1,11 @@
 name: GitHub Profile 3D Contributions
 
 on:
+  # Hourly, so activity in any of my other repos shows up on the card
+  # without waiting for the next day. GitHub's scheduler is best-effort,
+  # so expect this to land a few minutes past the hour.
   schedule:
-    - cron: "0 18 * * *"
+    - cron: "0 * * * *"
   workflow_dispatch:
   push:
     branches:
@@ -11,12 +14,21 @@ on:
 permissions:
   contents: write
 
+# Two runs pushing to main at once would make the second push lose the race.
+concurrency:
+  group: profile-3d
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v5
+        with:
+          # Full history so the rebase in the push step below has something
+          # to rebase onto.
+          fetch-depth: 0
 
       - uses: yoshi389111/github-profile-3d-contrib@latest
         env:
@@ -31,6 +43,22 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A .
-          if git commit -m "generated 3D contribution calendar"; then
-            git push
+
+          if git diff --cached --quiet; then
+            echo "Calendar unchanged since the last run - nothing to commit."
+            exit 0
           fi
+
+          git commit -m "generated 3D contribution calendar"
+
+          for attempt in 1 2 3; do
+            if git pull --rebase --autostash origin main && git push; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push attempt $attempt failed, retrying in 5s..."
+            sleep 5
+          done
+
+          echo "Could not push after 3 attempts." >&2
+          exit 1
