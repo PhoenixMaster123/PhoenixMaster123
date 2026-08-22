@@ -4,6 +4,12 @@ on:
   # Hourly, so activity in any of my other repos shows up on the card
   # without waiting for the next day. GitHub's scheduler is best-effort,
   # so expect this to land a few minutes past the hour.
+  #
+  # Running this often is free history-wise: the card is published to the
+  # "profile-3d" branch, which is FORCE-pushed as a single fresh commit every
+  # time (same trick snake.yml uses for "output"). main never sees a commit,
+  # and the publish branch never grows past one commit no matter how often
+  # this runs. The README points at raw.githubusercontent on that branch.
   schedule:
     - cron: "0 * * * *"
   workflow_dispatch:
@@ -14,7 +20,7 @@ on:
 permissions:
   contents: write
 
-# Two runs pushing to main at once would make the second push lose the race.
+# Two runs force-pushing the publish branch at once would race.
 concurrency:
   group: profile-3d
   cancel-in-progress: true
@@ -24,13 +30,13 @@ jobs:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
     steps:
+      # Only the workflow files are needed to generate the card, so a shallow
+      # checkout is enough - nothing gets committed back to this branch.
       - uses: actions/checkout@v5
-        with:
-          # Full history so the rebase in the push step below has something
-          # to rebase onto.
-          fetch-depth: 0
 
-      - uses: yoshi389111/github-profile-3d-contrib@latest
+      # Pinned: "latest" is a BRANCH on that repo, so @latest ran whatever was
+      # pushed to it, with our GITHUB_TOKEN. Bump deliberately.
+      - uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39  # v0.9.3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
@@ -38,27 +44,15 @@ jobs:
       - name: Show what was generated
         run: ls -la profile-3d-contrib/
 
-      - name: Commit & Push
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add -A .
-
-          if git diff --cached --quiet; then
-            echo "Calendar unchanged since the last run - nothing to commit."
-            exit 0
-          fi
-
-          git commit -m "generated 3D contribution calendar"
-
-          for attempt in 1 2 3; do
-            if git pull --rebase --autostash origin main && git push; then
-              echo "Pushed on attempt $attempt."
-              exit 0
-            fi
-            echo "Push attempt $attempt failed, retrying in 5s..."
-            sleep 5
-          done
-
-          echo "Could not push after 3 attempts." >&2
-          exit 1
+      # Replaces the branch wholesale (keep_history defaults to false), so the
+      # SVGs are always current while the branch stays exactly one commit deep.
+      - name: Publish the card to the profile-3d branch
+        # Pinned to a SHA, not the mutable @v3 tag: this action receives
+        # GITHUB_TOKEN with contents:write, so a repointed tag would run
+        # arbitrary code against this repo. Bump deliberately.
+        uses: crazy-max/ghaction-github-pages@5859b4ea7efe6b470a5b19c570460eae9323aefc  # v3.2.0
+        with:
+          target_branch: profile-3d
+          build_dir: profile-3d-contrib
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

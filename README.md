@@ -106,7 +106,7 @@ Hi there! I'm **Kristian** — a backend developer working primarily in **Java a
 <!-- ============================ 3D CALENDAR ============================ -->
 ## 🧊 My Year in Contributions
 
-![3D contribution calendar](./profile-3d-contrib/profile-night-rainbow.svg)
+![3D contribution calendar](https://raw.githubusercontent.com/PhoenixMaster123/PhoenixMaster123/profile-3d/profile-night-rainbow.svg)
 
 <br/>
 

@@ -22,7 +22,7 @@ jobs:
     steps:
       # ---------------- 1. Snake ----------------
       - name: Generate snake
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b  # v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
@@ -39,7 +39,8 @@ jobs:
       # ---------------- 2. Arcade games ----------------
       # games: pacman, breakout, galaga, puzzle-bobble, bomberman, minesweeper
       - name: Generate arcade games
-        uses: abozanona/pacman-contribution-graph@main
+        # Pinned to the then-current main; @main ran whatever was pushed to it.
+        uses: abozanona/pacman-contribution-graph@7332e1de7903ab780c3692a4127a59cc13872daa  # main @ 2026-08-22
         with:
           github_user_name: ${{ github.repository_owner }}
           games: "pacman,breakout,galaga"
@@ -54,7 +55,7 @@ jobs:
           ls -la dist/
 
       - name: Push all SVGs to the output branch
-        uses: crazy-max/ghaction-github-pages@v3
+        uses: crazy-max/ghaction-github-pages@5859b4ea7efe6b470a5b19c570460eae9323aefc  # v3.2.0
         with:
           target_branch: output
           build_dir: dist
