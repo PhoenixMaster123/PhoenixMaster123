@@ -10,7 +10,7 @@
 <!-- ============================ TYPING ANIMATION ============================ -->
 <div align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=900&color=00E5FF&center=true&vCenter=true&width=650&height=60&lines=Java+%2B+Spring+Boot+Developer;REST+APIs+%7C+Microservices+%7C+JPA;CS+Student+%40+THWS+%E2%80%94+open+to+internships"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=900&color=00E5FF&center=true&vCenter=true&width=650&height=60&lines=Java+%2B+Spring+Boot+Developer;REST+APIs+%7C+Microservices+%7C+JPA;CS+Student+%40+THWS+%E2%80%94+open+to+junior+roles"
     alt="Typing SVG"
   />
 </div>
@@ -29,7 +29,7 @@ Hi there! I'm **Kristian** — a backend developer working primarily in **Java a
 - ☕ **Java is my main language.** Day to day I build **Spring Boot** services: REST APIs, Spring Security, Hibernate/JPA, MySQL, Maven, JUnit and Docker.
 - 🧩 Most of my recent work is **microservices** — service-to-service communication, OAuth2, and clean layering (hexagonal / ports-and-adapters).
 - 🎓 Studying Computer Science at the [Technical University of Würzburg-Schweinfurt (THWS)](https://www.thws.de/); graduated from [Baba Tonka Mathematics High School](http://www.mg-babatonka.bg/) in Ruse, Bulgaria.
-- 🔍 **Open to a backend / Java internship.**
+- 🔍 **Looking for a junior backend / Java role.**
 - 🌱 Outside of Java I enjoy systems and low-level programming — currently exploring **C, C++, Assembly and Racket**, plus 3D graphics with **Three.js**.
 - 🌍 Bulgarian 🇧🇬, studying in Germany 🇩🇪 — I speak Bulgarian, English and German.
 
@@ -86,20 +86,20 @@ Hi there! I'm **Kristian** — a backend developer working primarily in **Java a
 
 ### ☕ Java / Spring Boot
 
-| Project | What it is | Stack |
-| :--- | :--- | :--- |
-| **[Car Service](https://github.com/PhoenixMaster123/car-service)**<br/>[![Live Demo](https://img.shields.io/badge/Live_Demo-1a1b27?style=for-the-badge&logo=githubpages&logoColor=00E5FF)](#) | Service-management platform for a real auto business — Thymeleaf UI plus a REST API, talking to separate [booking](https://github.com/PhoenixMaster123/booking-service), [payment](https://github.com/PhoenixMaster123/payment-service) and [notification](https://github.com/PhoenixMaster123/notification-svc) microservices, with OAuth2 login. | `Java 17` `Spring Boot 3.4` `Spring Cloud` `MySQL` |
-| **[Library Management System 2](https://github.com/PhoenixMaster123/Library-Management-System-Version-2)**<br/>[![Live Demo](https://img.shields.io/badge/Live_Demo-1a1b27?style=for-the-badge&logo=githubpages&logoColor=00E5FF)](https://phoenixmaster123.github.io/Library-Management-System-Version-2/) | Spring Boot backend in **hexagonal architecture** behind a React SPA, plus optional Notification and Analytics services wired over OpenFeign and Kafka — borrowing still succeeds when either is down. Whole stack runs on Docker Compose. | `Java 21` `Spring Boot` `React` `TypeScript` `Kafka` `Docker` |
-| **[Patient Management System](https://github.com/PhoenixMaster123/Patient-Management-System)**<br/>[![Live Demo](https://img.shields.io/badge/Live_Demo-1a1b27?style=for-the-badge&logo=githubpages&logoColor=00E5FF)](#) | Patient records platform built as a set of Spring Boot microservices and deployed on AWS. | `Java` `Spring Boot` `AWS` |
-| **[Spring Boot Microservices Techniques](https://github.com/PhoenixMaster123/Spring-Boot-Microservices-Techniques)**<br/>[![Live Demo](https://img.shields.io/badge/Live_Demo-1a1b27?style=for-the-badge&logo=githubpages&logoColor=00E5FF)](#) | Reference repo where I work through microservice patterns — service discovery, resilience and inter-service communication. | `Java` `Spring Boot` `Spring Cloud` |
+| Project | What it is | Stack | Live Demo |
+| :--- | :--- | :--- | :---: |
+| **[Car Service](https://github.com/PhoenixMaster123/car-service)** | Service-management platform for a real auto business — Thymeleaf UI plus a REST API, talking to separate [booking](https://github.com/PhoenixMaster123/booking-service), [payment](https://github.com/PhoenixMaster123/payment-service) and [notification](https://github.com/PhoenixMaster123/notification-svc) microservices, with OAuth2 login. | `Java 17` `Spring Boot 3.4` `Spring Cloud` `MySQL` | — |
+| **[Patient Management System](https://github.com/PhoenixMaster123/Patient-Management-System)** | Patient records platform built as a set of Spring Boot microservices and deployed on AWS. | `Java` `Spring Boot` `AWS` | [![Open](https://img.shields.io/badge/Open-1a1b27?style=flat-square&logo=githubpages&logoColor=00E5FF)](https://phoenixmaster123.github.io/Patient-Management-System/) |
+| **[Smart Wallet](https://github.com/PhoenixMaster123/smart-wallet-application)** | Server-rendered wallet service — multi-currency wallets, peer-to-peer transfers and subscription tiers charged against the balance, behind Spring Security login. An analytics page reads spending back out of the transaction history; the demo runs the app's own templates against a seeded registry in the browser. | `Java 17` `Spring Boot` `Thymeleaf` `Spring Security` `MySQL` | [![Open](https://img.shields.io/badge/Open-1a1b27?style=flat-square&logo=githubpages&logoColor=00E5FF)](https://phoenixmaster123.github.io/smart-wallet-application/app/) |
+| **[Library Management System 2](https://github.com/PhoenixMaster123/Library-Management-System-Version-2)** | Spring Boot backend in **hexagonal architecture** behind a React SPA, plus optional Notification and Analytics services wired over OpenFeign and Kafka — borrowing still succeeds when either is down. Whole stack runs on Docker Compose. | `Java 21` `Spring Boot` `React` `TypeScript` `Kafka` `Docker` | [![Open](https://img.shields.io/badge/Open-1a1b27?style=flat-square&logo=githubpages&logoColor=00E5FF)](https://phoenixmaster123.github.io/Library-Management-System-Version-2/) |
 
 ### 🎨 Other Work
 
-| Project | What it is | Stack |
-| :--- | :--- | :--- |
-| **[Автокомплекс Харис](https://github.com/PhoenixMaster123/haris-auto)** (Avtokompleks Haris)<br/>[![Live Demo](https://img.shields.io/badge/Live_Demo-1a1b27?style=for-the-badge&logo=githubpages&logoColor=00E5FF)](https://phoenixmaster123.github.io/haris-auto/) | The customer-facing site for the same auto business — four-language i18n, before/after slider, Sofia Sans typography. | `React` `TypeScript` `Vite` |
-| **[E-Commerce Webshop](https://github.com/PhoenixMaster123/E-Commerce-Webshop)**<br/>[![Live Demo](https://img.shields.io/badge/Live_Demo-1a1b27?style=for-the-badge&logo=githubpages&logoColor=00E5FF)](#) | Storefront with product browsing, cart and checkout flow. | `React` `TypeScript` `Vite` `Tailwind CSS` |
-| **[LOOP-WHILE-GOTO Simulator](https://github.com/PhoenixMaster123/LOOP-WHILE-GOTO-Simulator)**<br/>[![Live Demo](https://img.shields.io/badge/Live_Demo-1a1b27?style=for-the-badge&logo=githubpages&logoColor=00E5FF)](https://phoenixmaster123.github.io/LOOP-WHILE-GOTO-Simulator/) | Interpreter for the three classic theoretical-CS computation models, from my computability coursework. | `C++` |
+| Project | What it is | Stack | Live Demo |
+| :--- | :--- | :--- | :---: |
+| **[Автокомплекс Харис](https://github.com/PhoenixMaster123/haris-auto)** (Avtokompleks Haris) | The customer-facing site for the same auto business — four-language i18n, before/after slider, Sofia Sans typography. | `React` `TypeScript` `Vite` | [![Open](https://img.shields.io/badge/Open-1a1b27?style=flat-square&logo=githubpages&logoColor=00E5FF)](https://phoenixmaster123.github.io/haris-auto/) |
+| **[E-Commerce Webshop](https://github.com/PhoenixMaster123/E-Commerce-Webshop)** | Storefront with product browsing, cart and checkout flow. | `React` `TypeScript` `Vite` `Tailwind CSS` | — |
+| **[LOOP-WHILE-GOTO Simulator](https://github.com/PhoenixMaster123/LOOP-WHILE-GOTO-Simulator)** | Interpreter for the three classic theoretical-CS computation models, from my computability coursework. | `C++` | [![Open](https://img.shields.io/badge/Open-1a1b27?style=flat-square&logo=githubpages&logoColor=00E5FF)](https://phoenixmaster123.github.io/LOOP-WHILE-GOTO-Simulator/) |
 
 <br/>
 
